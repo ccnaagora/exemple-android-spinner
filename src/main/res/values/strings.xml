@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">exemple de Spinner</string>
+    <string-array name="septnains">
+        <item>atchoum</item>
+        <item>dormeur</item>
+        <item>grincheux</item>
+        <item>joyeux</item>
+    </string-array>
+</resources>

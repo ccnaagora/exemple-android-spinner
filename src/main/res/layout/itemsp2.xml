@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imsp2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/atchoum" />
+
+    <TextView
+        android:id="@+id/tvsp2"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/acme"
+        android:text="nom du nain"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+</LinearLayout>
